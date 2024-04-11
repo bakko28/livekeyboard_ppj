@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #70437a;
+}
+
+.textbox {
+    position: relative;
+    display: none;
+    width: 80vh;
+    background-color: #311e35c0;
+    border-radius: 40px;
+    padding: 16px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
